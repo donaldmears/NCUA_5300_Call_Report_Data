@@ -3,7 +3,7 @@ Python code to pull National Credit Union Administration (NCUA) 5300 Call Report
 
 There are two py files:
 
-• **callreportdata.py** pulls the data files from the NCUA website, selects key fields from various tables, and consolidates them into one csv file for all Credit Unions in a particular quarter
+• **callreportdata.py** pulls the data files from the NCUA website, selects key fields from various tables, and consolidates them into one csv file for all Credit Unions for a particular quarter
 
 • **concat_call_reports.py** concatenates all of the quarterly csv files produced by the callreportdata.py code into a single csv file 
 
