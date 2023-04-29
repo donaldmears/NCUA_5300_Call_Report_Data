@@ -10,7 +10,7 @@ There are two py files:
 
 It will be necessary for you to change the directory / path and quarter variables
 
-Features in the data set include the following (and others can be added if you modify the code:
+Features in the data set include the following (and others can be added if you modify the code):
 
 CU_NUMBER
 
