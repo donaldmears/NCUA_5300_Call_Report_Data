@@ -7,6 +7,8 @@ There are two py files:
 
 • **concat_call_reports.py** concatenates all of the quarterly csv files produced by the callreportdata.py code into a single csv file 
 
+• **callreport.ipynb** Jupyter Notebook file containing code from both **callreportdata.py** and **concat_call_reports.py**
+
 
 It will be necessary for you to change the directory / path and quarter variables
 
