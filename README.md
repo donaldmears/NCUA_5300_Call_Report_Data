@@ -2,13 +2,16 @@
 Python code to pull National Credit Union Administration (NCUA) 5300 Call Report Data. This will allow you to gather multiple quarters for trending purposes or for use in exploratory data analysis or an ML model.
 ________________________________________________________________________________
 There are two py files:
+
 • **callreportdata.py** pulls the data files from the NCUA website, selects key fields from various tables, and consolidates them into one csv file for all Credit Unions for a particular quarter
 
 • **concat_call_reports.py** concatenates all of the quarterly csv files produced by the callreportdata.py code into a single csv file 
 
 
 
+
 There are also two Jupyter Notebook files:
+
 • **callreport.ipynb** Jupyter Notebook file containing code from both **callreportdata.py** and **concat_call_reports.py**
 
 • **concat_callreport_with_avg_assets.ipynb** Jupyter Notebook file containing updated code from **concat_call_reports.py** that also includes a calculated field for average assets which is used in various metrics such as Return on Assets (ROA)
